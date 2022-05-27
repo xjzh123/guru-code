@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="theme-color" content="#00ccaa">
+<!--浏览器标题栏颜色，仅对Chrome Mobile，Chrome PWA（电脑版），微信小程序和其他支持该标签的浏览器有效。-->
+<meta name="viewport"
+    content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<html>
+
+<head>
+    <title>guruguru</title>
+    <link rel="stylesheet" href="CSS/GAF.css">
+    <script src="JavaScript/GAF.js"></script>
+    <script src="JavaScript/guru-code.js"></script>
+    <script src="JavaScript/input.js"></script>
+    <script src="JavaScript/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li></li>
+        <li><a class="top">guru-code</a></li>
+        <!--标题-->
+    </ul>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--下面为正文内容-->
+    <br>
+    <br>
+    <div style="width:80%;margin: auto;padding: 15px;">
+        <h1>工具</h1>
+        <p class="c">在这里输入文字，然后按下按钮！</p>
+        <br>
+        <form style="text-align:center;" name="textform">
+            <textarea name="textinput" style="height: 160px;width: 95%;font-family:'Google Sans';"
+                placeholder="guruguru"></textarea>
+        </form>
+        <p class="z"><a class="z" onclick="input_encode()">guru</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="z"
+                onclick="input_decode()">说人话</a></p>
+        <br>
+        <p id="textoutput" style="margin:0 30px"></p>
+        <h1>开发</h1>
+        <p class="c">访问<a class="b" onclick="aHref('https://github.com/xjzh123/guru-code')">我的GitHub</a>来进行二次开发！</p>
+        <p class="c">你也可以使用浏览器开发人员工具查看所有的源代码。</p>
+        <p class="c">如果出现输入框不显示、工具无法使用等情况，请联系我。</p>
+    </div>
+
+    <!--正文结束-->
+    <br>
+    <br>
+    <br>
+</body>
+<footer>
+    <br>
+    <div class="d">请不要以为我会CSS。我是纯纯的代码飞舞和美术飞舞。页面设计使用了<a class="b" onclick="aHref('https://www.zzchat.cf')">zzChumo</a>的<a
+            class="b" onclick="aHref('https://www.zzchat.cf/GAF')">GS App Frame</a>。</div>
+    <br>
+</footer>
+
+</html>
